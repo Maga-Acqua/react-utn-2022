@@ -1,0 +1,26 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #65e88f;
+    font-size:2rem;
+    padding: 15px;
+}
+
+#questions {
+    font-style: oblique;
+    color: #665f68;
+}
+
+a {
+    color:#665f68;
+}
+
+p, li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+    color:#65e88f;
+}
