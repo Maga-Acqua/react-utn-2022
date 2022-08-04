@@ -6,11 +6,27 @@ h1 {
     color: #65e88f;
     font-size:2rem;
     padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;  
+}
+
+img {
+    box-shadow: 0 0 5px #33ffac;
 }
 
 #questions {
     font-style: oblique;
     color: #665f68;
+}
+
+article {
+    column-count: 2;
+    column-gap: 15px;
+    background: linear-gradient(to left, #33ffac, white);
+    border-radius: 5px;
 }
 
 a {
