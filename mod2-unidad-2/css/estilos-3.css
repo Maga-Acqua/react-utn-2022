@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center; 
+}
+
+.flex-container {
+    display: inline-flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 200px;
+    width: 100%;
+}
+
+.bloque {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 24px;
+    color: white;
+}
+
+.flex-container > div:first-child {
+    background-color: red;
+}
+
+.flex-container > div:nth-child(2) {
+    background-color: blue;
+}
+
+.flex-container > div:last-child {
+    background-color: green;
+}
