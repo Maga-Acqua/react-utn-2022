@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+nav, h5, p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 1.2em;
+}
+
+h5 {
+	font-size: 2em;
+}
+
+.margin-between {
+	margin: 15px;
+}
+
+#footer {
+	height: 8em;
+}
+
+.footer-link {
+	text-decoration: none;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 1.3em;
+	color: white;
+}
+
+.footer-text {
+	color: white;
+}
+
+a:hover {
+	color: gray;
+}
