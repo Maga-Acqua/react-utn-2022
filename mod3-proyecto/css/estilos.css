@@ -1,0 +1,116 @@
+/*  BODY -> font-family: 'Quicksand', sans-serif;
+    TITLES -> font-family: 'Bebas Neue', cursive;
+*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: antiquewhite;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+nav {
+    background-color: #5ccda7;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 40px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #b57edc;
+}
+
+nav ul li a.activo {
+    background-color: #b57edc;
+}
+
+footer {
+    background-color: #b57edc;
+    clear: both;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+/*********/
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.bienvenidos {
+    width: 45%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.img-home {
+    width: 55%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cita-container {
+    background-color: antiquewhite;
+    padding: 16px;
+    text-align: center;
+}
+
+.cita {
+    font-style: italic;
+    font-size: 1.7rem;
+    display: block;
+}
+
+.autor {
+    display: block;
+    margin: 12px 0;
+}
+/*********/
+.biografia {
+    width: 45%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.img-biografia {
+    width: 55%;
+}
