@@ -92,6 +92,7 @@ h2 {
     background-color: antiquewhite;
     padding: 16px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .cita {
@@ -104,6 +105,7 @@ h2 {
     display: block;
     margin: 12px 0;
 }
+
 /*********/
 .biografia {
     width: 45%;
@@ -113,4 +115,47 @@ h2 {
 
 .img-biografia {
     width: 55%;
+}
+
+.section-redes {
+    border: 1px solid #b57edc;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 12px 0px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-redes img{
+    border-radius: 100px;
+    display: block;
+    max-width: 180px;
+}
+
+.section-redes ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-redes ul li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+.section-redes ul li a{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.section-redes ul li a:hover{
+    color: #b57edc;
+}
+
+.section-redes ul li img{
+    max-width: 40px;
 }
