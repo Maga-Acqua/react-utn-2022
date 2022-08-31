@@ -66,13 +66,13 @@ footer {
     margin-top: 20px;
 }
 
-/*********/
 h2 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 100;
     padding-bottom: 10px;
 }
 
+/****HOME****/
 .bienvenidos {
     width: 45%;
     padding-right: 10px;
@@ -105,8 +105,9 @@ h2 {
     display: block;
     margin: 12px 0;
 }
+/****FIN HOME****/
 
-/*********/
+/****ACERCA DE MI****/
 .biografia {
     width: 45%;
     padding-right: 10px;
@@ -128,34 +129,104 @@ h2 {
     justify-content: center;
 }
 
-.section-redes img{
+.section-redes img {
     border-radius: 100px;
     display: block;
     max-width: 180px;
 }
 
-.section-redes ul{
+.section-redes ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-.section-redes ul li{
+.section-redes ul li {
     display: inline-flex;
     padding: 5px;
 }
 
-.section-redes ul li a{
+.section-redes ul li a {
     display: inline-block;
     padding: 10px;
     color: black;
     text-decoration: none;
 }
 
-.section-redes ul li a:hover{
+.section-redes ul li a:hover {
     color: #b57edc;
 }
 
-.section-redes ul li img{
+.section-redes ul li img {
     max-width: 40px;
 }
+/****FIN ACERCA DE MI****/
+
+/****DISENIOS****/
+.disenios-container{
+    padding-top: 4px;
+}
+
+.disenios {
+    border: 1px solid #b57edc;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 12px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.disenios h2{
+    padding: 1rem;
+}
+
+.disenios .desc-disenio h3 {
+    color: #b57edc;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.disenios img {
+    border-radius: 10px;
+    display: block;
+    max-width: 300px;
+}
+
+.disenios:nth-child(even) {
+    flex-direction: row-reverse;
+}
+/****FIN DISENIOS****/
+
+/****PRODUCTOS****/
+.productos-container{
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.producto{
+    width: 30%;
+    border: 1px solid #b57edc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.producto img{
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+}
+
+.producto p, .producto h4{
+    line-height: 12px;
+}
+/****FIN PRODUCTOS****/
+
+/****CONTACTO****/
+
+/****FIN CONTACTO****/
