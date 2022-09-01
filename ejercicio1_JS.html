@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="utf-8">
+		<title>Unidad 4 - JS - Ejercicio 1</title>
+	</head>
+    <body>
+        <div style="display: flex; gap: 20px;">
+            <div id="aqua" style="width: 100px; height: 100px; background-color: aqua; border: 0.5px solid white"></div>
+            <div id="violet" style="width: 100px; height: 100px; background-color: blueviolet; border: 0.5px solid white"></div>
+            <div id="coral" style="width: 100px; height: 100px; background-color: coral; border: 0.5px solid white"></div>
+        </div>
+        <script>
+            const div = document.getElementById("aqua");
+            div.addEventListener('click', function() {
+                document.body.style.backgroundColor = "aqua";
+            }, false);
+
+            const div2 = document.getElementById("violet");
+            div2.addEventListener('click', function() {
+                document.body.style.backgroundColor = "blueviolet";
+            }, false);
+
+            const div3 = document.getElementById("coral");
+            div3.addEventListener('click', function() {
+                document.body.style.backgroundColor = "coral";
+            }, false);
+        </script>
+    </body>
+</html>
