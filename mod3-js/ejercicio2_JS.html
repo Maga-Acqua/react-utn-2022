@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Unidad 4 - JS - Ejercicio 2</title>
+</head>
+
+<body>
+    <textarea id="text1" onkeyup="agregarContador();"></textarea>
+    <p style="font-size:small; font-family:'Arial';" id="contador"></p>
+    <script>
+        function agregarContador() {
+            var text1 = document.getElementById('text1');
+            var contador = document.getElementById('contador');
+            contador.innerHTML = text1.value.length + " caracteres";
+        }
+    </script>
+</body>
+</html>

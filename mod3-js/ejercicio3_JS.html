@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Unidad 4 - JS - Ejercicio 3</title>
+</head>
+
+<body>
+    <button onclick="informarAprobados();">Consultar Aprobados</button>
+    <script>
+        var alumnos = [{
+                nombre: 'Juan Gomez',
+                nota: 7
+            }, {
+                nombre: 'Pedro Rodriguez',
+                nota: 4
+            }, {
+                nombre: 'Roxana García',
+                nota: 8
+            }, {
+                nombre: 'Luciano Lopez',
+                nota: 5
+            }, {
+                nombre: 'Fernanda Gimenez',
+                nota: 6
+            }, {
+                nombre: 'Florencia Martinez',
+                nota: 10
+            }, {
+                nombre: 'Raul Sanchez',
+                nota: 7
+            }, {
+                nombre: 'Sandra Figueroa',
+                nota: 8
+            }];
+
+        function calcularAprobados(alumnos){
+            var aprobados = new Array;
+            for(let alumno of alumnos){
+                if(alumno.nota >= 7){
+                    aprobados.push(alumno);
+                }
+            }
+            return aprobados;
+        }
+
+        function informarAprobados(){
+            var arrayAprobados = calcularAprobados(alumnos);
+           
+            for(let aprobado of arrayAprobados){
+                var newP = document.createElement('p');
+                newP.innerText = `${aprobado.nombre} su nota fue ${aprobado.nota}`;
+                document.body.appendChild(newP);
+            }
+        }
+    </script>
+</body>
+
+</html>
