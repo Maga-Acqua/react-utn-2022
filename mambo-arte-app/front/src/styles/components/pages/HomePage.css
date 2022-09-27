@@ -1,0 +1,39 @@
+/****HOME****/
+.bienvenidos {
+    width: 45%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.img-home {
+    width: 55%;
+}
+
+.img-home img {
+    height: 500px; 
+    width:auto;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cita-container {
+    background-color: antiquewhite;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cita {
+    font-style: italic;
+    font-size: 1.7rem;
+    display: block;
+}
+
+.autor {
+    display: block;
+    margin: 12px 0;
+}
+/****FIN HOME****/

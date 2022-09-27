@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/pages/ProductosPage.css';
 
 const ProductosPage = props => {
     return (

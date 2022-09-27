@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/pages/BiografiaPage.css';
 
 const BiografiaPage = props => {
     return (

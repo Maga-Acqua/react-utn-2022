@@ -1,0 +1,30 @@
+/****PRODUCTOS****/
+.productos-container {
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.producto {
+    width: 30%;
+    border: 1px solid #b57edc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.producto img {
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+}
+
+.producto p,
+.producto h4 {
+    line-height: 12px;
+}
+
+/****FIN PRODUCTOS****/

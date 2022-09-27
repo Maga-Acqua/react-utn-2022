@@ -1,0 +1,36 @@
+/****DISENIOS****/
+.disenios-container {
+    padding-top: 4px;
+}
+
+.disenios {
+    border: 1px solid #b57edc;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 12px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.disenios h2 {
+    padding: 1rem;
+}
+
+.disenios .desc-disenio h3 {
+    color: #b57edc;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.disenios img {
+    border-radius: 10px;
+    display: block;
+    max-width: 300px;
+}
+
+.disenios:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/****FIN DISENIOS****/
